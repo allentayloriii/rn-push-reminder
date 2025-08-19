@@ -1,4 +1,4 @@
-import Galaxies, { GalaxiesView } from "@/modules/galaxies";
+import Galaxies from "@/modules/galaxies";
 import { Text, View } from "react-native";
 
 export default function Index() {
@@ -12,7 +12,6 @@ export default function Index() {
     >
       <Text>{Galaxies.hello()}</Text>
       <Text>{Galaxies.PI}</Text>
-      <GalaxiesView url="https://www.google.com" />
     </View>
   );
 }
