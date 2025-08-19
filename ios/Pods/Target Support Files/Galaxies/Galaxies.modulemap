@@ -1,0 +1,6 @@
+module Galaxies {
+  umbrella header "Galaxies-umbrella.h"
+
+  export *
+  module * { export * }
+}
